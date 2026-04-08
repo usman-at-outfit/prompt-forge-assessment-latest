@@ -1,0 +1,512 @@
+[
+  {
+    "modelId": "gpt-4o",
+    "name": "GPT-4o",
+    "lab": "OpenAI",
+    "labIcon": "O",
+    "category": [
+      "language",
+      "vision"
+    ],
+    "contextWindow": 128000,
+    "inputPricePer1M": 5,
+    "outputPricePer1M": 15,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": true,
+    "speed": "fast",
+    "bestFor": [
+      "General chat",
+      "Multimodal tasks"
+    ],
+    "rating": 4.9,
+    "reviewCount": 2400,
+    "description": "Balanced flagship model for chat, coding, and multimodal work.",
+    "useCases": [
+      "write-content",
+      "build-something",
+      "analyse-data",
+      "just-exploring"
+    ],
+    "benchmarks": {
+      "MMLU": 88,
+      "HumanEval": 90,
+      "MATH": 78
+    },
+    "tags": [
+      "featured",
+      "popular",
+      "multimodal"
+    ],
+    "isLive": true,
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "modelId": "gpt-4.1-mini",
+    "name": "GPT-4.1 Mini",
+    "lab": "OpenAI",
+    "labIcon": "O",
+    "category": [
+      "language",
+      "code"
+    ],
+    "contextWindow": 1000000,
+    "inputPricePer1M": 0.4,
+    "outputPricePer1M": 1.6,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": false,
+    "speed": "fast",
+    "bestFor": [
+      "Fast iteration",
+      "Prompt testing"
+    ],
+    "rating": 4.7,
+    "reviewCount": 1700,
+    "description": "High-context model for cost-effective prompt building and assistants.",
+    "useCases": [
+      "automate-work",
+      "build-something",
+      "write-content"
+    ],
+    "benchmarks": {
+      "MMLU": 84,
+      "HumanEval": 86,
+      "MATH": 72
+    },
+    "tags": [
+      "fast",
+      "value"
+    ],
+    "isLive": true,
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "modelId": "claude-opus-4",
+    "name": "Claude Opus 4",
+    "lab": "Anthropic",
+    "labIcon": "A",
+    "category": [
+      "language",
+      "code"
+    ],
+    "contextWindow": 200000,
+    "inputPricePer1M": 15,
+    "outputPricePer1M": 75,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": true,
+    "speed": "slow",
+    "bestFor": [
+      "Research",
+      "Long-form generation"
+    ],
+    "rating": 4.9,
+    "reviewCount": 1110,
+    "description": "Top-end reasoning and writing quality for premium workflows.",
+    "useCases": [
+      "write-content",
+      "analyse-data",
+      "build-something"
+    ],
+    "benchmarks": {
+      "MMLU": 90,
+      "HumanEval": 88,
+      "MATH": 83
+    },
+    "tags": [
+      "premium",
+      "long-context"
+    ],
+    "isLive": true,
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "modelId": "claude-sonnet-4",
+    "name": "Claude Sonnet 4",
+    "lab": "Anthropic",
+    "labIcon": "A",
+    "category": [
+      "language",
+      "code",
+      "vision"
+    ],
+    "contextWindow": 200000,
+    "inputPricePer1M": 3,
+    "outputPricePer1M": 15,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": true,
+    "speed": "fast",
+    "bestFor": [
+      "Everyday work",
+      "Analysis"
+    ],
+    "rating": 4.8,
+    "reviewCount": 2100,
+    "description": "Balanced Claude variant for productive everyday assistants.",
+    "useCases": [
+      "automate-work",
+      "analyse-data",
+      "write-content",
+      "just-exploring"
+    ],
+    "benchmarks": {
+      "MMLU": 87,
+      "HumanEval": 87,
+      "MATH": 77
+    },
+    "tags": [
+      "balanced",
+      "assistant"
+    ],
+    "isLive": true,
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "modelId": "gemini-2.5-pro",
+    "name": "Gemini 2.5 Pro",
+    "lab": "Google",
+    "labIcon": "G",
+    "category": [
+      "language",
+      "vision",
+      "code"
+    ],
+    "contextWindow": 1000000,
+    "inputPricePer1M": 3.5,
+    "outputPricePer1M": 10.5,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": true,
+    "speed": "medium",
+    "bestFor": [
+      "Deep analysis",
+      "Large context tasks"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1800,
+    "description": "Massive context model suited for multimodal research and long docs.",
+    "useCases": [
+      "analyse-data",
+      "document-analysis",
+      "build-something"
+    ],
+    "benchmarks": {
+      "MMLU": 89,
+      "HumanEval": 85,
+      "MATH": 82
+    },
+    "tags": [
+      "long-context",
+      "analysis"
+    ],
+    "isLive": true,
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "modelId": "llama-3.3-70b",
+    "name": "Llama 3.3 70B",
+    "lab": "Meta",
+    "labIcon": "M",
+    "category": [
+      "language",
+      "code",
+      "open-source"
+    ],
+    "contextWindow": 128000,
+    "inputPricePer1M": 0.6,
+    "outputPricePer1M": 0.9,
+    "isFree": true,
+    "isOpenSource": true,
+    "license": "Open Source",
+    "multimodal": false,
+    "speed": "medium",
+    "bestFor": [
+      "Open-source deployment",
+      "Agent prototyping"
+    ],
+    "rating": 4.5,
+    "reviewCount": 980,
+    "description": "Strong open-source generalist for self-hosted builders.",
+    "useCases": [
+      "build-something",
+      "automate-work",
+      "code-generation"
+    ],
+    "benchmarks": {
+      "MMLU": 80,
+      "HumanEval": 78,
+      "MATH": 67
+    },
+    "tags": [
+      "open-source",
+      "self-host"
+    ],
+    "isLive": true,
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "modelId": "mistral-large",
+    "name": "Mistral Large",
+    "lab": "Mistral",
+    "labIcon": "Mi",
+    "category": [
+      "language",
+      "code"
+    ],
+    "contextWindow": 128000,
+    "inputPricePer1M": 2,
+    "outputPricePer1M": 6,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": false,
+    "speed": "medium",
+    "bestFor": [
+      "Business assistants",
+      "Structured outputs"
+    ],
+    "rating": 4.5,
+    "reviewCount": 820,
+    "description": "Enterprise-friendly large language model with balanced pricing.",
+    "useCases": [
+      "my-company",
+      "write-content",
+      "analyse-data",
+      "automate-work"
+    ],
+    "benchmarks": {
+      "MMLU": 81,
+      "HumanEval": 77,
+      "MATH": 71
+    },
+    "tags": [
+      "enterprise",
+      "structured"
+    ],
+    "isLive": true,
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "modelId": "codestral",
+    "name": "Codestral",
+    "lab": "Mistral",
+    "labIcon": "Mi",
+    "category": [
+      "code"
+    ],
+    "contextWindow": 256000,
+    "inputPricePer1M": 0.8,
+    "outputPricePer1M": 2.4,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": false,
+    "speed": "fast",
+    "bestFor": [
+      "Code generation",
+      "Refactoring"
+    ],
+    "rating": 4.6,
+    "reviewCount": 690,
+    "description": "Code-focused model for implementation, generation, and refactoring.",
+    "useCases": [
+      "build-something",
+      "code-generation",
+      "automate-work"
+    ],
+    "benchmarks": {
+      "MMLU": 72,
+      "HumanEval": 88,
+      "MATH": 59
+    },
+    "tags": [
+      "coding",
+      "developer"
+    ],
+    "isLive": true,
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "modelId": "deepseek-chat",
+    "name": "DeepSeek Chat",
+    "lab": "DeepSeek",
+    "labIcon": "D",
+    "category": [
+      "language",
+      "code"
+    ],
+    "contextWindow": 128000,
+    "inputPricePer1M": 0.27,
+    "outputPricePer1M": 1.1,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": false,
+    "speed": "fast",
+    "bestFor": [
+      "Affordable reasoning",
+      "Coding"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1300,
+    "description": "High-value model with strong reasoning for cost-sensitive teams.",
+    "useCases": [
+      "build-something",
+      "analyse-data",
+      "write-content"
+    ],
+    "benchmarks": {
+      "MMLU": 85,
+      "HumanEval": 84,
+      "MATH": 79
+    },
+    "tags": [
+      "value",
+      "reasoning"
+    ],
+    "isLive": true,
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "modelId": "grok-2",
+    "name": "Grok 2",
+    "lab": "xAI",
+    "labIcon": "X",
+    "category": [
+      "language",
+      "vision"
+    ],
+    "contextWindow": 128000,
+    "inputPricePer1M": 2.5,
+    "outputPricePer1M": 7.5,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": true,
+    "speed": "medium",
+    "bestFor": [
+      "Real-time assistants",
+      "General chat"
+    ],
+    "rating": 4.3,
+    "reviewCount": 620,
+    "description": "Conversational model built for responsive consumer-facing chats.",
+    "useCases": [
+      "just-exploring",
+      "write-content",
+      "my-customers"
+    ],
+    "benchmarks": {
+      "MMLU": 78,
+      "HumanEval": 73,
+      "MATH": 69
+    },
+    "tags": [
+      "chat",
+      "consumer"
+    ],
+    "isLive": true,
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "modelId": "command-r-plus",
+    "name": "Command R+",
+    "lab": "Cohere",
+    "labIcon": "C",
+    "category": [
+      "language",
+      "retrieval"
+    ],
+    "contextWindow": 128000,
+    "inputPricePer1M": 3,
+    "outputPricePer1M": 15,
+    "isFree": false,
+    "isOpenSource": false,
+    "license": "Commercial",
+    "multimodal": false,
+    "speed": "medium",
+    "bestFor": [
+      "RAG",
+      "Enterprise support"
+    ],
+    "rating": 4.4,
+    "reviewCount": 500,
+    "description": "Retrieval-oriented model for enterprise Q&A and knowledge assistants.",
+    "useCases": [
+      "my-company",
+      "my-team",
+      "document-analysis"
+    ],
+    "benchmarks": {
+      "MMLU": 80,
+      "HumanEval": 69,
+      "MATH": 65
+    },
+    "tags": [
+      "rag",
+      "enterprise"
+    ],
+    "isLive": true,
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "modelId": "gemma-3-27b",
+    "name": "Gemma 3 27B",
+    "lab": "Google",
+    "labIcon": "G",
+    "category": [
+      "language",
+      "open-source"
+    ],
+    "contextWindow": 128000,
+    "inputPricePer1M": 0,
+    "outputPricePer1M": 0,
+    "isFree": true,
+    "isOpenSource": true,
+    "license": "Open Source",
+    "multimodal": true,
+    "speed": "fast",
+    "bestFor": [
+      "Local experimentation",
+      "Teaching demos"
+    ],
+    "rating": 4.3,
+    "reviewCount": 610,
+    "description": "Open model with a strong balance of quality, accessibility, and speed.",
+    "useCases": [
+      "students",
+      "just-exploring",
+      "automate-work"
+    ],
+    "benchmarks": {
+      "MMLU": 79,
+      "HumanEval": 70,
+      "MATH": 66
+    },
+    "tags": [
+      "open-source",
+      "google"
+    ],
+    "isLive": true,
+    "isFeatured": false,
+    "isTrending": true
+  }
+]
